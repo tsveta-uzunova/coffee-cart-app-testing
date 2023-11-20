@@ -17,10 +17,15 @@
     - [3.3. Test Case 3.3: Multiple Items are added to the Cart](#33-test-case-33-multiple-items-are-added-to-the-cart)
     - [3.4. Test Case 3.4: Remove Items from the Cart](#34-test-case-34-remove-items-from-the-cart)
   - [4. Test scenario: Testing "Payment details" pop-up](#4-test-scenario-testing-payment-details-pop-up)
+    - [Test Case 4.1: Verify that pop-up with "Payment details" is displayed after click on the "Total" buttom](#test-case-41-verify-that-pop-up-with-payment-details-is-displayed-after-click-on-the-total-buttom)
+    - [Test Case 4.2: Verify Successful Form Submission](#test-case-42-verify-successful-form-submission)
+    - [Test Case 4.3: Verify Name Field Validation](#test-case-43-verify-name-field-validation)
+    - [Test Case 4.4: Verify Email Field Validation](#test-case-44-verify-email-field-validation)
+    - [Test Case 4.5: Verify Order Updates and Promotional Messages Option](#test-case-45-verify-order-updates-and-promotional-messages-option)
 
-##  1. <a name='Testscenario:TranslationFeature'></a>Test scenario: Translation Feature
+##  1. Test scenario: Translation Feature
 
-###  1.1. <a name='TestCase1:VerifyTranslationTrigger'></a>Test Case 1: Verify Translation Trigger
+###  1.1. Test Case 1: Verify Translation Trigger
 
 - **Precondition:**
     1. The user is on the Coffee Cart App webpage.
@@ -34,9 +39,9 @@
 - **Result (Pass/Fail):** 
     - Pass
 
-##  2. <a name='Testscenario:TestingCartButtonFunctionality'></a>Test scenario: Testing "Cart" Button Functionality 
+##  2. Test scenario: Testing "Cart" Button Functionality 
 
-###  2.1. <a name='TestCase2.1:VerifyCartbutton'></a>Test Case 2.1: Verify "Cart" button
+###  2.1. Test Case 2.1: Verify "Cart" button
 - **Precondition:**
     1. The user is on the Coffee Cart App webpage.
 - **Steps:** 
@@ -47,7 +52,7 @@
 - **Result (Pass/Fail):**  
     - Pass
 
-###  2.2. <a name='TestCase2.2:VerifyCartCounterwith0Drinks'></a>Test Case 2.2: Verify Cart Counter with 0 Drinks
+###  2.2. Test Case 2.2: Verify Cart Counter with 0 Drinks
 - **Precondition:**
     1. The user is on the Coffee Cart App webpage.
 - **Steps:** 
@@ -58,7 +63,7 @@
 - **Result (Pass/Fail):**  
     - Pass
 
-###  2.3. <a name='TestCase2.3:VerifyCartCounterwithMultipleDrinks'></a>Test Case 2.3: Verify Cart Counter with Multiple Drinks
+###  2.3. Test Case 2.3: Verify Cart Counter with Multiple Drinks
 - **Precondition:**
     1. The user is on the Coffee Cart App webpage.
     2. Multiple coffee drinks are selected.
@@ -71,7 +76,7 @@
 - **Result (Pass/Fail):**
     - Pass 
 
-###  2.4. <a name='TestCase2.4:VerifyCartPageContents'></a>Test Case 2.4: Verify Cart Page Contents
+###  2.4. Test Case 2.4: Verify Cart Page Contents
 - **Precondition:**
     1. The user is on the Coffee Cart App webpage.
     2. Coffee drink is not select. 
@@ -83,7 +88,7 @@
 - **Result (Pass/Fail):**
     - Pass
 
-###  2.5. <a name='TestCase2.5:VerifyCartPageContentswithMultipleDrinks'></a>Test Case 2.5: Verify Cart Page Contents with Multiple Drinks
+###  2.5. Test Case 2.5: Verify Cart Page Contents with Multiple Drinks
 - **Precondition:**
     1. The user is on the Coffee Cart App webpage.
     2. Multiple coffee drinks are selected.
@@ -96,7 +101,7 @@
 - **Result (Pass/Fail):**
     - Pass
 
-###  2.6. <a name='TestCase2.6:VerifyCoffeisAddtoCart'></a>Test Case 2.6: Verify Coffe is Add to "Cart"
+###  2.6. Test Case 2.6: Verify Coffe is Add to "Cart"
 - **Precondition:**
     1. The user is on the Coffee Cart App webpage.
 - **Steps:** 
@@ -107,7 +112,7 @@
 - **Result (Pass/Fail):**
     - Pass
 
-###  2.7. <a name='TestCase2.7:VerifyAddtoCartDialogOpens'></a>Test Case 2.7: Verify "Add to Cart" Dialog Openss
+###  2.7. Test Case 2.7: Verify "Add to Cart" Dialog Openss
 - **Precondition:**
     1. The user is on the Coffee Cart App webpage.
 - **Steps:** 
@@ -118,9 +123,9 @@
 - **Result (Pass/Fail):**
     - Pass
 
-##  3. <a name='Testscenario:TestingTotalButtonwithDifferentCartConfigurations'></a>Test scenario: Testing "Total" Button with Different Cart Configurations
+##  3. Test scenario: Testing "Total" Button with Different Cart Configurations
 
-###  3.1. <a name='TestCase3.1:EmptyCart'></a>Test Case 3.1: Empty Cart
+###  3.1. Test Case 3.1: Empty Cart
 - **Precondition:**
     1. The user is on the Coffee Cart App webpage.
     2. The user has an empty cart.
@@ -132,7 +137,7 @@
 - **Result (Pass/Fail):**
     - Pass
 
-###  3.2. <a name='TestCase3.2:SingleItemisaddedtotheCart'></a>Test Case 3.2: Single Item is added to the Cart
+###  3.2. Test Case 3.2: Single Item is added to the Cart
 - **Precondition:**
     1. The user is on the Coffee Cart App webpage.
     2. The user has one item in the cart.
@@ -145,7 +150,7 @@
 - **Result (Pass/Fail):**
     - Pass
 
-###  3.3. <a name='TestCase3.3:MultipleItemsareaddedtotheCart'></a>Test Case 3.3: Multiple Items are added to the Cart
+###  3.3. Test Case 3.3: Multiple Items are added to the Cart
 - **Precondition:**
     1. The user is on the Coffee Cart App webpage.
     2. The user has multiple items in the cart.
@@ -158,7 +163,7 @@
 - **Result (Pass/Fail):**
     - Pass
 
-###  3.4. <a name='TestCase3.4:RemoveItemsfromtheCart'></a>Test Case 3.4: Remove Items from the Cart
+###  3.4. Test Case 3.4: Remove Items from the Cart
 - **Precondition:**
     1. The user is on the Coffee Cart App webpage.
     2. The user has multiple items in the cart.
@@ -173,7 +178,9 @@
     - Pass
 
 ##  4. Test scenario: Testing "Payment details" pop-up
-Test Case 4.1: Verify that pop-up with "Payment details" is displayed after click on the "Total" buttom
+
+### Test Case 4.1: Verify that pop-up with "Payment details" is displayed after click on the "Total" buttom
+
 - **Precondition:**
     1. The user is on the Coffee Cart App webpage and clicks the "Total" button.
 - **Steps:** 
@@ -185,7 +192,8 @@ Test Case 4.1: Verify that pop-up with "Payment details" is displayed after clic
 - **Result (Pass/Fail):**
     - Pass
 
-Test Case 4.2: Verify Successful Form Submission
+### Test Case 4.2: Verify Successful Form Submission
+
 - **Precondition:**
     1. The user is on the Coffee Cart App checkout page with the Payment Details form displayed.  
 - **Steps:**  
@@ -201,7 +209,8 @@ Test Case 4.2: Verify Successful Form Submission
 - **Result (Pass/Fail):**
     - Fail
 
-Test case 4.3: Verify Name Field Validation
+### Test Case 4.3: Verify Name Field Validation
+
 - **Precondition:**
     1. The user is on the Coffee Cart App checkout page with the Payment Details form displayed.
 - **Steps:**
@@ -217,7 +226,8 @@ Test case 4.3: Verify Name Field Validation
 - **Result (Pass/Fail):**
     - Pass
 
-Test case 4.4: Verify Email Field Validation
+### Test Case 4.4: Verify Email Field Validation
+
 - **Precondition:**
     1. The user is on the Coffee Cart App checkout page with the Payment Details form displayed.
 - **Steps:**
@@ -233,7 +243,8 @@ Test case 4.4: Verify Email Field Validation
 - **Result (Pass/Fail):**
     - Pass
 
-Test case 4.5: Verify Order Updates and Promotional Messages Option
+### Test Case 4.5: Verify Order Updates and Promotional Messages Option
+
 - **Precondition:**
     1. The user is on the Coffee Cart App checkout page with the Payment Details form displayed.  
 - **Steps:**  
