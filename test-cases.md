@@ -16,6 +16,7 @@
     - [3.2. Test Case 3.2: Single Item is added to the Cart](#32-test-case-32-single-item-is-added-to-the-cart)
     - [3.3. Test Case 3.3: Multiple Items are added to the Cart](#33-test-case-33-multiple-items-are-added-to-the-cart)
     - [3.4. Test Case 3.4: Remove Items from the Cart](#34-test-case-34-remove-items-from-the-cart)
+  - [4. Test scenario: Testing "Payment details" pop-up](#4-test-scenario-testing-payment-details-pop-up)
 
 ##  1. <a name='Testscenario:TranslationFeature'></a>Test scenario: Translation Feature
 
@@ -170,3 +171,80 @@
     - The displayed total amount should be updated to reflect the new cart configuration;
 - **Result (Pass/Fail):**
     - Pass
+
+##  4. Test scenario: Testing "Payment details" pop-up
+Test Case 4.1: Verify that pop-up with "Payment details" is displayed after click on the "Total" buttom
+- **Precondition:**
+    1. The user is on the Coffee Cart App webpage and clicks the "Total" button.
+- **Steps:** 
+    1. Open the Aplication - https://coffee-cart.app/;
+    2. Click on the "Total" button;
+    3. A "Payment details" pop-up is displayed;
+- **Expected result:**
+    - A pop-up with "Payment details" shoul appear;
+- **Result (Pass/Fail):**
+    - Pass
+
+Test Case 4.2: Verify Successful Form Submission
+- **Precondition:**
+    1. The user is on the Coffee Cart App checkout page with the Payment Details form displayed.  
+- **Steps:**  
+    1. Open the Aplication - https://coffee-cart.app/;
+    2. Click on the "Total" button;
+    3. A "Payment details" pop-up is displayed; 
+    4. Fill in the Name field with valid name;
+    5. Fill in the Email field with valid email;
+    6. Choose the option to receive order updates and promotional messages;
+    7. Click the "Submit" button;     
+- **Expected result:**
+    - The form should be submitted successfully, and the user should see a confirmation message;
+- **Result (Pass/Fail):**
+    - Fail
+
+Test case 4.3: Verify Name Field Validation
+- **Precondition:**
+    1. The user is on the Coffee Cart App checkout page with the Payment Details form displayed.
+- **Steps:**
+    1. Open the Aplication - https://coffee-cart.app/;
+    2. Click on the "Total" button;
+    3. A "Payment details" pop-up is displayed; 
+    4. Leave the Name field empty;
+    5. Fill in the Email field with valid email;
+    6. Choose the option to receive order updates and promotional messages;
+    7. Click the "Submit" button;  
+- **Expected result:**
+    - The form submission should fail, and an error message should indicate that the Name field is required;
+- **Result (Pass/Fail):**
+    - Pass
+
+Test case 4.4: Verify Email Field Validation
+- **Precondition:**
+    1. The user is on the Coffee Cart App checkout page with the Payment Details form displayed.
+- **Steps:**
+    1. Open the Aplication - https://coffee-cart.app/;
+    2. Click on the "Total" button;
+    3. A "Payment details" pop-up is displayed; 
+    4. Fill in the Name field with valid name;
+    5. Leave the Email field empty;
+    6. Choose the option to receive order updates and promotional messages;
+    7. Click the "Submit" button;  
+- **Expected result:**
+    - The form submission should fail, and an error message should indicate that a valid Email address is required;
+- **Result (Pass/Fail):**
+    - Pass
+
+Test case 4.5: Verify Order Updates and Promotional Messages Option
+- **Precondition:**
+    1. The user is on the Coffee Cart App checkout page with the Payment Details form displayed.  
+- **Steps:**  
+    1. Open the Aplication - https://coffee-cart.app/;
+    2. Click on the "Total" button;
+    3. A "Payment details" pop-up is displayed; 
+    4. Fill in the Name field with valid name;
+    5. Fill in the Email field with valid email;
+    6. Choose not to receive order updates and promotional messages;
+    7. Click the "Submit" button;     
+- **Expected result:**
+    - The form should be submitted successfully, and the user should not receive promotional messages or order updates unless explicitly chosen;
+- **Result (Pass/Fail):**
+    - Fail
